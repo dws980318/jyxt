@@ -1,0 +1,86 @@
+/*页面重定义*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html{
+  width: 100%;
+  min-width: 1170px;
+  font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+}
+body{
+  padding: 0;
+  margin: 0 auto;
+}
+html,body{
+  width: 100%;
+  height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+form,
+blockquote {
+  margin: 0;
+}
+
+ul,
+ol,
+li,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none outside none;
+}
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+  color: #cccccc;
+}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: #cccccc;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #cccccc;
+}
+
+::-webkit-scrollbar {
+  width: 4px; /*对垂直流动条有效*/
+}
+::-webkit-scrollbar-track{
+  -webkit-box-shadow: inset 0 0 6px transparent;
+  background-color: transparent;
+  border-radius: 0px;
+}
+::-webkit-scrollbar-thumb{
+  border-radius: 2px;
+  -webkit-box-shadow: inset 0 0 6px transparent;
+  background-color: #999;
+}
+
+.container{
+  clear: both;
+  width: 1170px;
+  /*设置页面主要内容宽度*/
+  margin: auto;
+  height: auto;
+  /*overflow: hidden;*/
+  background-color: inherit;
+  font-size: 0;
+}
+/*页面重定义.end*/
+
